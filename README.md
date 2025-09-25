@@ -5,7 +5,7 @@
 Clone the repository
 
 ```bash
-git clone https://github.com/Theorist-Git/SteelIndustry_DefectCLF.git
+git clone https://github.com/Theorist-Git/steel_defect_clf.git
 ```
 
 ## Requirements
