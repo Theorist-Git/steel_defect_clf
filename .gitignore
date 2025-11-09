@@ -1,1 +1,5 @@
 .ipynb_checkpoints/
+rpi_emu/*.tar
+rpi_emu/*.tflite
+rpi_emu/train/
+.idea/

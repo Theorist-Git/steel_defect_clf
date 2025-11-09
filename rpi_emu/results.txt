@@ -1,0 +1,29 @@
+
+Found 1799 images in 6 classes.
+
+--- Classification Report ---
+                 precision    recall  f1-score   support
+
+        crazing       1.00      0.84      0.91       299
+      inclusion       0.99      0.99      0.99       300
+        patches       0.93      0.98      0.95       300
+ pitted_surface       0.96      1.00      0.98       300
+rolled-in_scale       0.94      1.00      0.97       300
+      scratches       1.00      0.99      0.99       300
+
+       accuracy                           0.97      1799
+      macro avg       0.97      0.97      0.97      1799
+   weighted avg       0.97      0.97      0.97      1799
+
+
+--- Confusion Matrix ---
+[[251   0  23   6  19   0]
+ [  0 297   0   2   0   1]
+ [  0   0 295   5   0   0]
+ [  0   0   0 300   0   0]
+ [  0   0   0   0 300   0]
+ [  0   4   0   0   0 296]]
+
+Overall Accuracy: 96.66%
+Average inference time: -> Testing FULL INT8 PTQ MODEL (Input Type: UINT8)
+Average Latency (ms): 3.290739059448242
